@@ -27,6 +27,8 @@ Console.Write($"{Environment.NewLine}Press any key to exit...");
 
 > The course screenshot is just showing Visual Studio’s project tree, not actual folders, so `Dependencies` and `Frameworks` aren’t real directories on disk. In VS Code you just have Program.cs, the `.csproj`, and maybe an `.sln`; `slnx` is basically VS Code’s own metadata, while `sln` is the normal solution file you want for compatibility. In short: don’t sweat the missing folders, use the regular `.csproj`/`.sln` console app setup and treat the UI difference as just different editor plumbing.
 
+![Screenshot of Solution Explorer looking different than the VSCODE 'Explorer' sidebar](/_pix/screens/screen_01_solution-explorer-vid3.png)
+
 ## #GOTCHA
 
 - `Dependencies` and `Frameworks` are IDE view nodes, not real folders on disk.
