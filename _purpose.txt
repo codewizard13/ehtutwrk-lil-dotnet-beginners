@@ -1,6 +1,0 @@
-Eric L. Hepperle, 2025-09-15
-
-# PURPOSE: 
-
-This repo documents my work and notes on the Boot.dev courses (2025)
-
